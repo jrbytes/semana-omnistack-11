@@ -46,3 +46,19 @@ Todo código feito é em JavaScript, ele não é convertido em código nativo, m
 Sem o expo, precisaria instalar em nosso sistema tanto o Android Studio para ter o SDK de desenvolvimento Android, e o Xcode para obter o SDK do iOS.  
 Nesse caso, a iniciação no desenvolvimento fica mais penosa, já que essas SDK's não são extremamente simples de instalar e livres de erros.  
 Com o expo, instala o aplicativo no celular. Nele já tem tudo para podermos desenvolver. APIs de mapas, geolocalização, câmera, sensores, calendário etc.
+
+# Node.js & Express
+
+Rotas e recursos.  
+Método HTTP: get, post, put, delete.  
+Insomnia, app para testar os endpoints.  
+**Tipos de parâmetros**:  
+**Query params** (filtros, paginação), `req.query`  
+**Route params** (identificar recursos), `req.params`  
+**Request body** é o corpo da requisição utilizado para criar ou alterar recursos, `req.body`  
+**Header** permissão para cadastro com autenticação `req.headers`
+
+# Entidades & Funcionalidades
+
+**Entidades**: ONG, Caso (Incident)  
+**Funcionalidades**: Login da ONG, Logout da ONG, Cadastro da ONG, Listar casos específicos de uma ONG, Entrar em contato com a ONG, Cadastrar novos casos, Deletar casos, Listar todos os casos.
