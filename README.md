@@ -62,3 +62,9 @@ Insomnia, app para testar os endpoints.
 
 **Entidades**: ONG, Caso (Incident)  
 **Funcionalidades**: Login da ONG, Logout da ONG, Cadastro da ONG, Listar casos específicos de uma ONG, Entrar em contato com a ONG, Cadastrar novos casos, Deletar casos, Listar todos os casos.
+
+# Testes
+
+Verificar todas regras de negócio de forma automática, em uma aplicação grande é bom verificar que tudo está funcionando após alterar algo.  
+Instalar o Jest no backend, `yarn add jest`. Para iniciar `npx jest --init`  
+Existem vários tipos de testes: O **teste de integração**, ele abrange diversas partes do código, ele testa por completo uma funcionalidade da aplicação. O **teste unitário**, age de forma isolada, testando se determinado valor corresponde ao que é esperado.
